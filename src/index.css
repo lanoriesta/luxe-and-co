@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap");
+@import "tailwindcss";
+
+@layer base {
+  body {
+    @apply bg-[#010100];
+
+    font-family: "Open Sans", sans-serif;
+  }
+
+  p {
+    @apply text-white;
+
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+  }
+
+  h1,
+  h2,
+  h3 {
+    @apply text-[#FBE035];
+  }
+
+  h1 {
+    @apply text-[45px] text-base/12 font-light;
+  }
+
+  h2 {
+    @apply text-[35px] text-base/9 text-primary font-light text-shadow-lg/30;
+  }
+
+  button {
+    @apply text-[14px] p-3 rounded-md font-semibold cursor-pointer w-full;
+  }
+
+  .primary-btn {
+    @apply bg-primary;
+  }
+
+  .secondary-btn {
+    @apply bg-transparent text-primary border border-primary;
+  }
+  #biz-logo {
+    font-family: "Quicksand", sans-serif;
+    font-size: 24px;
+    letter-spacing: 2px;
+    font-weight: 200;
+  }
+
+  .mkv-section {
+    background-image: linear-gradient(
+        180deg,
+        rgba(2, 0, 36, 0) 0%,
+        rgba(0, 0, 0, 1) 96%,
+        rgba(0, 0, 0, 1) 100%
+      ),
+      url("src/assets/images/MKV-img.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+
+  .about-section {
+    background-image: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 1) 0%,
+        rgba(0, 0, 0, 0) 51%,
+        rgba(0, 0, 0, 1) 100%
+      ),
+      url("src/assets/images/about-bg.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+
+  .no-scroll {
+    overflow: hidden;
+  }
+}
+
+@theme {
+  --color-primary: #fbe035;
+  --color-black: #010100;
+}
