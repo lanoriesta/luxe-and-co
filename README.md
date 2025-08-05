@@ -1,4 +1,4 @@
-# Lawrence
+# Luxe & Co. Salon Landing Page
 
 Developed a modern, responsive landing page for Luxe & Co., a luxury salon offering hair, nail, skincare, and spa services. The project focuses on showcasing services, building brand trust, and driving online bookings through a clean UI and strategic content layout.
 
