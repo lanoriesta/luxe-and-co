@@ -19,7 +19,7 @@ const services = [
       },
     ],
     img: {
-      src: "src/assets/images/Hair img section.jpg",
+      src: "src/assets/images/Hair-img-section.jpg",
       alt: "Hair service image",
     },
   },
@@ -43,31 +43,31 @@ const services = [
       },
     ],
     img: {
-      src: "src/assets/images/Nails img section.jpg",
+      src: "src/assets/images/Nails-img-section.jpg",
       alt: "Nails service image",
     },
   },
   {
     id: 3,
     name: "Skincare",
-    h2: "Nail Perfection",
-    subt: "Manicures & Pedicures You’ll Love",
+    h2: "Glowing Skin Starts Here",
+    subt: "facials & Advanced Skincare",
     services: [
       {
-        title: "Manicures",
-        desc: "Classic, gel, French, and spa pampering for flawless hands.",
+        title: "Customized Facials",
+        desc: "Targeted soolutions for hydration aging, acne and brightness",
       },
       {
-        title: "Pedicures",
-        desc: "Relaxing foot care with luxurious treatments and callus removal.",
+        title: "Advanced Skin Treatments",
+        desc: "Microdermabrasioon, dermaplaning, chemical peels & LED Therapy",
       },
       {
-        title: "Nail Art & Enhancements",
-        desc: "Custom designs, acrylics, and gel extensions — express your style.",
+        title: "Brows & Lashes",
+        desc: "Scalpted brows, tinted lashes & elegant extensions.",
       },
     ],
     img: {
-      src: "src/assets/images/Skincare img section.jpg",
+      src: "src/assets/images/Skincare-img-section.jpg",
       alt: "Nails service image",
     },
   },
@@ -83,7 +83,7 @@ const services = [
       },
     ],
     img: {
-      src: "src/assets/images/Waxing img section.jpg",
+      src: "src/assets/images/Waxing-img-section.jpg",
       alt: "Waxing service image",
     },
   },
@@ -99,7 +99,7 @@ const services = [
       },
     ],
     img: {
-      src: "src/assets/images/Massage img section.jpg",
+      src: "src/assets/images/Massage-img-section.jpg",
       alt: "Massage service image",
     },
   },
