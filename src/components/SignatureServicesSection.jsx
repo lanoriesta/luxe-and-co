@@ -10,8 +10,10 @@ const SignatureServicesSection = () => {
           {services.map((service) => (
             <div
               key={service.id}
-              className="basis-[10vh] w-full bg-no-repeat bg-cover bg-center flex items-center p-5"
-              style={{ backgroundImage: `url(${service.img.src})` }}
+              className="basis-[15vh] w-full bg-no-repeat bg-cover bg-center flex items-center p-5"
+              style={{
+                backgroundImage: `linear-gradient(270deg,rgba(0, 0, 0, 0) 2%, rgba(0, 0, 0, 0.52) 40%, rgba(0, 0, 0, 1) 90%),url(${service.img.src})`,
+              }}
             >
               <h3 className="text-lg tracking-wider text-shadow-2xs">
                 {service.name}
