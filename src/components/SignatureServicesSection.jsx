@@ -15,7 +15,7 @@ const SignatureServicesSection = () => {
                 backgroundImage: `linear-gradient(270deg,rgba(0, 0, 0, 0) 2%, rgba(0, 0, 0, 0.52) 40%, rgba(0, 0, 0, 1) 90%),url(${service.img.src})`,
               }}
             >
-              <h3 className="text-lg tracking-wider text-shadow-2xs">
+              <h3 className="text-white text-lg tracking-wider text-shadow-2xs">
                 {service.name}
               </h3>
             </div>
