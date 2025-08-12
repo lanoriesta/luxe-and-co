@@ -74,6 +74,14 @@
   .no-scroll {
     overflow: hidden;
   }
+
+  .black-bg {
+    background-color: rgb(0, 0, 0, 0.5);
+  }
+
+  .yellow-bg {
+    background-color: rgb(251, 224, 53, 0.5);
+  }
 }
 
 @theme {
