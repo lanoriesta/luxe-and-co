@@ -1,5 +1,5 @@
 import React from "react";
-import services from "../Services";
+import services from "../services";
 
 const SignatureServicesSection = () => {
   return (
