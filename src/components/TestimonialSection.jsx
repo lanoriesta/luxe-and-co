@@ -22,7 +22,7 @@ const TestimonialSection = () => {
         <h2>What Clients Are Saying</h2>
       </div>
       <div
-        className="flex items-center justify-between text-white py-5 bg-no-repeat bg-left bg-contain"
+        className="flex items-center justify-between text-white py-5 bg-no-repeat bg-left bg-contain h-[200px]"
         style={{
           backgroundImage: "url('src/assets/icons/quote-left-100.png')",
           backgroundBlendMode: "multiply",
@@ -32,6 +32,7 @@ const TestimonialSection = () => {
         <div>
           <HiMiniChevronLeft
             color="white"
+            size={24}
             onClick={() => handleChangeTestimonial("Previous")}
           />
         </div>
@@ -47,6 +48,7 @@ const TestimonialSection = () => {
         <div>
           <HiMiniChevronRight
             color="white"
+            size={24}
             onClick={() => handleChangeTestimonial("Next")}
           />
         </div>
