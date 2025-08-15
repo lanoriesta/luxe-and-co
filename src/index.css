@@ -30,7 +30,7 @@
   }
 
   button {
-    @apply text-[14px] p-3 rounded-md font-semibold cursor-pointer w-full;
+    @apply text-[14px] p-3 rounded-md font-light cursor-pointer w-full tracking-wider;
   }
 
   .primary-btn {
