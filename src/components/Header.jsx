@@ -9,9 +9,23 @@ const Header = () => {
     setMenuToggle(!menuToggle);
   };
 
+  const [onScroll, setOnScroll] = useState(false);
+
+  window.onscroll = (e) => {
+    if (window.scrollY > 0) {
+      setOnScroll(true);
+    } else if (window.scrollY < 2) {
+      setOnScroll(false);
+    }
+  };
+
   return (
     <>
-      <div className="flex p-5 lg:max-w-[1200px] md:max-w-[950px] sm:max-w-[750px] max-w-[500px]items-center mx-auto py-[20px] absolute top-0 left-0 right-0 z-10 bg-[000000]">
+      <div
+        className={`flex p-5 lg:max-w-[1200px] md:max-w-[950px] sm:max-w-[750px] max-w-[500px]items-center mx-auto py-[20px] fixed top-0 left-0 right-0 z-10 ${
+          onScroll ? "bg-black/80 backdrop-blur-sm" : "bg-transparent"
+        }`}
+      >
         <div className="flex w-1/4 items-center gap-2">
           <img src={bizLogo} alt="Luxe&Co logo" width={40} />
           <p className="" id="biz-logo">
