@@ -28,7 +28,7 @@ const ServiceTemplate = () => {
               ))}
             </div>
             <div
-              className="w-full h-full absolute bottom-0 left-0 bg-repeat"
+              className="w-full h-full absolute bottom-0 left-0 bg-repeat-round"
               style={{
                 backgroundImage: 'url("src/assets/images/worn-dots-bg.png")',
               }}

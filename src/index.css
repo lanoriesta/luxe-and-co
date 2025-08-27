@@ -2,12 +2,6 @@
 @import "tailwindcss";
 
 @layer base {
-  body {
-    @apply bg-[#010100];
-
-    font-family: "Open Sans", sans-serif;
-  }
-
   p {
     @apply text-white;
 
@@ -71,20 +65,21 @@
     background-size: cover;
   }
 
-  .no-scroll {
-    overflow: hidden;
-  }
-
   .black-bg {
     background-color: rgb(0, 0, 0, 0.5);
-  }
-
-  .yellow-bg {
-    background-color: rgb(251, 224, 53, 0.5);
   }
 }
 
 @theme {
   --color-primary: #fbe035;
   --color-black: #010100;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+body {
+  background-color: var(--color-black);
+  font-family: "Open Sans", sans-serif;
 }

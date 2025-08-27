@@ -5,7 +5,6 @@ import SignatureServicesSection from "./SignatureServicesSection";
 import ServiceTemplate from "./ServiceTemplate";
 import TestimonialSection from "./TestimonialSection";
 import CTAsection from "./CTAsection";
-import Footer from "./Footer";
 
 const MainBody = () => {
   return (
@@ -22,7 +21,6 @@ const MainBody = () => {
       <div className="bg-black h-[100px]"></div>
       <CTAsection />
       <div className="bg-black h-[100px]"></div>
-      <Footer />
     </div>
   );
 };

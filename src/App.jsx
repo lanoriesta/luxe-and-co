@@ -1,11 +1,13 @@
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import MainBody from "./components/MainBody";
 
 function App() {
   return (
-    <div className="relatives">
+    <div className="relative">
       <Header />
       <MainBody />
+      <Footer />
     </div>
   );
 }
