@@ -26,7 +26,7 @@ const Header = () => {
           onScroll ? "bg-black/95" : "bg-transparent"
         }`}
       >
-        <div className="flex w-full items-center justify-center max-w-[1200px] mx-auto">
+        <div className="flex w-full items-center justify-center max-w-lapDesk mx-auto">
           <div className="flex w-1/4 items-center gap-2">
             <img src={bizLogo} alt="Luxe&Co logo" width={40} />
             <p className="" id="biz-logo">

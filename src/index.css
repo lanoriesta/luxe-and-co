@@ -34,6 +34,7 @@
   .secondary-btn {
     @apply bg-transparent text-primary border border-primary;
   }
+
   #biz-logo {
     font-family: "Quicksand", sans-serif;
     font-size: 24px;
@@ -73,6 +74,9 @@
 @theme {
   --color-primary: #fbe035;
   --color-black: #010100;
+  --container-lapDesk: 1440px;
+  --mobile-width: 480px;
+  --tablet-width: 834px;
 }
 
 .no-scroll {

@@ -4,7 +4,7 @@ import bizLogo from "../assets/icons/Luxe-and-Co Logo.png";
 const About = () => {
   return (
     <div className="about-section">
-      <div className="p-5 py-20 lg:max-w-[1200px] md:max-w-[950px] sm:max-w-[750px] max-w-[500px] mx-auto -z-5">
+      <div className="p-5 py-20 max-w-lapDesk mx-auto -z-5">
         <div>
           <img className="w-[150px]" src={bizLogo} alt="Luxe&Co. Logo" />
         </div>
