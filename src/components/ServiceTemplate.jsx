@@ -3,10 +3,15 @@ import services from "../services";
 
 const ServiceTemplate = () => {
   return (
-    <div>
+    <div className="max-w-lapDesk mx-auto">
       {services.map((service, index) => (
-        <div key={index} className="flex flex-col items-center mb-10 w-full">
-          <div className="h-[300px] w-full">
+        <div
+          key={index}
+          className={`flex flex-col items-center mb-10 w-full ${
+            service.id % 2 === 0 ? "lg:flex-row-reverse" : "lg:flex-row"
+          }`}
+        >
+          <div className="h-[300px] lg:h-[450px] w-full">
             <img
               src={service.img.src}
               alt={service.img.alt}
@@ -15,7 +20,7 @@ const ServiceTemplate = () => {
           </div>
           <div
             className={`black-bg
-            } p-8 w-80 mx-auto -mt-20 flex flex-col gap-3 relative`}
+            } p-8 lg:w-full lg:mt-0 w-80 mx-auto -mt-20 flex flex-col gap-3 relative`}
           >
             <h2>{service.h2}</h2>
             <h3 className="text-white font-bold text-lg">{service.subt}</h3>

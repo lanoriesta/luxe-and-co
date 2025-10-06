@@ -2,7 +2,7 @@ import React from "react";
 
 const CTAsection = () => {
   return (
-    <div className="flex flex-col justify-center p-5 gap-y-5">
+    <div className="flex flex-col justify-center p-5 gap-y-5 max-w-lapDesk mx-auto">
       <div>
         <h2 className="text-white">Ready for Your Luxe Experience</h2>
       </div>

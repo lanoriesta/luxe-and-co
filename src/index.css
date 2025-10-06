@@ -63,7 +63,17 @@
       ),
       url("src/assets/images/about-bg.jpg");
     background-position: center;
+    background-attachment: fixed;
     background-size: cover;
+  }
+
+  .about-section-con {
+    background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(0, 0, 0, 0.3) 51%,
+      rgba(0, 0, 0, 1) 100%
+    );
   }
 
   .black-bg {

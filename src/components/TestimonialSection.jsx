@@ -17,7 +17,7 @@ const TestimonialSection = () => {
     }
   };
   return (
-    <div className="p-5">
+    <div className="p-5 max-w-lapDesk mx-auto">
       <div>
         <h2>What Clients Are Saying</h2>
       </div>

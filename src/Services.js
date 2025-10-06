@@ -11,7 +11,7 @@ const services = [
       },
       {
         title: "Color Creations",
-        desc: "From subtle highlights to bold balayage — color that defines you.From subtle highlights to bold balayage — color that defines you.",
+        desc: "From subtle highlights to bold balayage — color that defines you.",
       },
       {
         title: "Hair Treatments",
